@@ -16,7 +16,7 @@ public class Main {
 
         hashTable.printHashtable();
 
-//        System.out.println(hashTable.remove("Subroza"));
+        System.out.println(hashTable.remove("Subroza"));
 
         hashTable.printHashtable();
     }

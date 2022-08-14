@@ -54,17 +54,17 @@ public class SimpleHashTable {
         return hashtable[hashedKey].value;
     }
 
-//    public Player remove(String key)
-//    {
-//        int hashedKey = findKey(key);
-//
-//        if (hashedKey == -1)
-//        {
-//            return null;
-//        }
-//
-//        return hashtable[hashedKey].value;
-//    }
+    public Player remove(String key)
+    {
+        int hashedKey = findKey(key);
+
+        if (hashedKey == -1)
+        {
+            return null;
+        }
+
+        return hashtable[hashedKey].value;
+    }
     private int findKey(String key)
     {
         int hashedKey = hashKey(key);
