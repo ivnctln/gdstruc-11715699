@@ -19,7 +19,7 @@ public class Main {
 
         playerLinkedList.contains(asuna);
 
-        playerLinkedList.indexOf(asuna);
+        playerLinkedList.indexOf(lethalBacon);
 
         //List<Player> playerList = new ArrayList<>();
 
